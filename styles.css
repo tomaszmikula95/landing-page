@@ -3,12 +3,85 @@
     height:100px;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuright {
+    display: flex;
+    gap: 40px;
+    margin-right: 50px;
+}
+
 .picture-main {
     width: 800px;
     height: 400px;
+}
+
+.partone {
+    display: flex;
+    justify-content: center;
+}
+
+.firstsegment {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondsegment {
+    display: flex;
+    flex-direction: column;
+}
+
+.titelparttwo {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .picture-rest {
     width: 200px;
     height: 200px;
 }
+
+.pictures {
+    display: flex;
+    justify-content: space-around;
+}
+
+.underline {
+    display: flex;
+    justify-content: space-around;
+}
+
+.note {
+    width: 200px;
+    text-align: center;
+}
+
+.partthree {
+    text-align: center;
+}
+
+.partfour {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.a .b {
+    display: flex;
+    flex-direction: column;
+}
+
+.b {
+    padding-top: 30px;
+}
+
+.footer {
+    text-align: center;
+}
+
+
+
