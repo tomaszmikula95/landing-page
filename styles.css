@@ -1,22 +1,33 @@
+body {
+    background-color: #1F2937;
+}
 .logo {
-    width:100px;
-    height:100px;
+    width:50px;
+    height:50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    padding: auto;
+    border-radius: 50%;
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
 }
 
 .menuright {
     display: flex;
+    justify-content: right;
     gap: 40px;
     margin-right: 50px;
+    color: white;
 }
 
 .picture-main {
-    width: 800px;
+    width: 500px;
     height: 400px;
+    margin: 100px;
 }
 
 .partone {
@@ -27,8 +38,33 @@
 .firstsegment {
     display: flex;
     flex-direction: column;
+    padding-top: 150px;
+    margin-left: 100px;
+    color: white
 }
 
+.firstsegmenttitle {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: -50px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3882F6;
+    color: white;
+}
+.firstbutton {
+    margin-top: 50px;
+    width: 100px;
+}
+
+.backgroundtwo {
+    background-color: white;
+}
 .secondsegment {
     display: flex;
     flex-direction: column;
@@ -38,11 +74,15 @@
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
+    padding: 50px 0;
 }
 
 .picture-rest {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #3882F6;
 }
 
 .pictures {
@@ -53,6 +93,7 @@
 .underline {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 
 .note {
@@ -62,17 +103,37 @@
 
 .partthree {
     text-align: center;
+    background-color: #E5E7EB;
+    padding: 50px 0;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.partfourbackground {
+    background-color: white;
+    height: 200px;
+    padding-top: 100px;
+}
 .partfour {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 150px;
+    background-color: #3882F6;
+    margin: 0 100px;
+    border-radius: 12px;
 }
 
 .a .b {
     display: flex;
     flex-direction: column;
+}
+
+.a {
+    color: white;
 }
 
 .b {
@@ -81,6 +142,7 @@
 
 .footer {
     text-align: center;
+    color: white;
 }
 
 
