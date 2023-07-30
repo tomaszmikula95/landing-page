@@ -1,11 +1,13 @@
 body {
     background-color: #1F2937;
+    margin: 0;
+    padding: 0;
 }
 .logo {
-    width:50px;
-    height:50px;
+    width:100px;
+    height:100px;
     margin-left: 50px;
-    margin-top: 5px;
+    margin-top: 20px;
     padding: auto;
     border-radius: 50%;
 }
@@ -22,12 +24,13 @@ body {
     gap: 40px;
     margin-right: 50px;
     color: white;
+    font-size: 30px;
 }
 
 .picture-main {
-    width: 500px;
-    height: 400px;
-    margin: 100px;
+    width: 700px;
+    height: 500px;
+    margin: 100px 160px 100px 100px;
 }
 
 .partone {
@@ -38,9 +41,9 @@ body {
 .firstsegment {
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
-    margin-left: 100px;
-    color: white
+    padding-top: 50px;
+    margin-left: 170px;
+    color: white;
 }
 
 .firstsegmenttitle {
@@ -48,6 +51,10 @@ body {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: -50px;
+}
+
+p {
+    font-size: 36px;
 }
 
 button {
@@ -58,8 +65,9 @@ button {
     color: white;
 }
 .firstbutton {
-    margin-top: 50px;
-    width: 100px;
+    margin-top: 20px;
+    width: 150px;
+    font-size: 25px;
 }
 
 .backgroundtwo {
@@ -78,8 +86,8 @@ button {
 }
 
 .picture-rest {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-style: solid;
     border-radius: 12px;
     border-color: #3882F6;
@@ -99,12 +107,14 @@ button {
 .note {
     width: 200px;
     text-align: center;
+    font-size: 40px;
 }
 
 .partthree {
     text-align: center;
     background-color: #E5E7EB;
     padding: 50px 0;
+    font-size: 30px;
 }
 
 .quote {
@@ -115,7 +125,7 @@ button {
 .partfourbackground {
     background-color: white;
     height: 200px;
-    padding-top: 100px;
+    padding: 100px 0 70px;
 }
 .partfour {
     display: flex;
@@ -123,21 +133,32 @@ button {
     align-items: center;
     gap: 150px;
     background-color: #3882F6;
-    margin: 0 100px;
+    margin: 0 500px;
     border-radius: 12px;
 }
 
 .a .b {
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .a {
     color: white;
+    font-size: 25px;
 }
 
 .b {
     padding-top: 30px;
+}
+
+.downbutton {
+    border-color: white;
+    border-width: 3px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding: 0 20px;
 }
 
 .footer {
@@ -145,5 +166,7 @@ button {
     color: white;
 }
 
-
+h6 {
+    font-size: 24px;
+}
 
